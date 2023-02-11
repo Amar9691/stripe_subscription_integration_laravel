@@ -99,7 +99,7 @@
         </div>
        <script type="text/javascript">
       // Create an instance of the Stripe object with your publishable API key
-      var stripe = Stripe('pk_test_51HH6NwEsb5TMNG13XMCox86t0dvlCgXH25zKtsPZCRcXg72Eoi4RMyutpG3QbNH4OodgUVgONNgHAmxpDEBP8LLi00swmZGjRR');
+      var stripe = Stripe('your-stipe-key');
      
 
       var checkoutButton = document.getElementById('checkout-button');

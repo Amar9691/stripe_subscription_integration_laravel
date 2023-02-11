@@ -20,7 +20,7 @@ class PayController extends Controller
     public function payment(Request $request, Response $response)
    {
 
-   	      \Stripe\Stripe::setApiKey('sk_test_51HH6NwEsb5TMNG13Wl7gHMok4MVqQaYIIGomieTyqy5xMVQ2DGYcSBUxLS8E504GKJrz5YfjoJFYvISAEpiM6E2700Yerb6d5j');
+   	      \Stripe\Stripe::setApiKey('your-stripe-key');
 
     	  $session = \Stripe\Checkout\Session::create([
                    

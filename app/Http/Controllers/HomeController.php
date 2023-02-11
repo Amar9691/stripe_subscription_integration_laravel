@@ -44,8 +44,8 @@ class HomeController extends Controller
 
         $plan = [
            
-              'price_1HJLGLEsb5TMNG13o9xhZajJ'=> '4000 Three Monthly',
-              'price_1HJLGLEsb5TMNG13zV0MZYKf'=> '2000 Monthly'
+              'price_1HJLGLEsb5TMNGfdsfhkjlkja13o9xhZajJ'=> '4000 Three Monthly',
+              'price_1HJLGLEsb5TMNGdsafhjkhjds13zV0MZYKf'=> '2000 Monthly'
         ];
 
         $data = [
@@ -105,7 +105,7 @@ class HomeController extends Controller
 
     public function planchange()
     {
-       $plan_id = 'price_1HJLGLEsb5TMNG13zV0MZYKf';
+       $plan_id = 'price_1HJLGLEssfb5TMiipoiNGgd13zV0MZYKf';
 
        $user = Auth::user();
 
@@ -127,7 +127,7 @@ class HomeController extends Controller
    public function sca()
    {
 
-     \Stripe\Stripe::setApiKey('sk_test_51HH6NwEsb5TMNG13Wl7gHMok4MVqQaYIIGomieTyqy5xMVQ2DGYcSBUxLS8E504GKJrz5YfjoJFYvISAEpiM6E2700Yerb6d5j');
+     \Stripe\Stripe::setApiKey('your_stripe_key');
 
      $intent = \Stripe\PaymentIntent::create([
       

@@ -51,7 +51,7 @@
 
     window.addEventListener('load',function(){
     
-    const stripe = Stripe('pk_test_51HH6NwEsb5TMNG13XMCox86t0dvlCgXH25zKtsPZCRcXg72Eoi4RMyutpG3QbNH4OodgUVgONNgHAmxpDEBP8LLi00swmZGjRR');
+    const stripe = Stripe('your-stipe-key');
 
     const elements = stripe.elements();
     const cardElement = elements.create('card');
