@@ -105,7 +105,7 @@ class HomeController extends Controller
 
     public function planchange()
     {
-       $plan_id = 'price_1HJLGLEssfb5TMiipoiNGgd13zV0MZYKf';
+       $plan_id = 'price_1HJLGLEssfb5TMiipoiNGgdkjkjkjkjl13zV0MZYKf';
 
        $user = Auth::user();
 
